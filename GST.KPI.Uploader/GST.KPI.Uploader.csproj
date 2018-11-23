@@ -51,16 +51,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +87,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GST.KPI.Components\GST.KPI.Components.csproj">
+      <Project>{db79eb05-6cc4-4296-85f5-aa50ae0b8e8c}</Project>
+      <Name>GST.KPI.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GST.KPI.Repositories\GST.KPI.Repositories.csproj">
       <Project>{F72F4FE5-7C01-4C50-82A9-DEDBA44DC1FE}</Project>
       <Name>GST.KPI.Repositories</Name>

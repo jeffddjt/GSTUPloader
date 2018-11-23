@@ -1,3 +1,8 @@
 {
-  "connectionString": "Server=127.0.0.1;Database=GST;User Id=sa;Password=db12345;"
+  "connectionString": "Server=127.0.0.1;Database=GST;User Id=sa;Password=aaaa1111!;",
+  "DESEncryptKey": "DYSOFTGSTPROJECT",
+  "URL": "http://gst.xyvideo.cn",
+  "ItemsOnce": 1000,
+  "UserName": "admin",
+  "Password": "54321"
 }
